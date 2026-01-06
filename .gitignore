@@ -1,0 +1,24 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ===== Virtual Env =====
+env/
+venv/
+
+# ===== Django =====
+db.sqlite3
+*.log
+local_settings.py
+
+# ===== VS Code =====
+.vscode/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Node (se usar server local) =====
+node_modules/

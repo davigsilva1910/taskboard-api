@@ -1,0 +1,147 @@
+/* RESET BÁSICO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+/* CONTAINER */
+.container {
+  width: 100%;
+  max-width: 600px;
+  background: #020617;
+  padding: 25px 30px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.4);
+}
+
+/* TÍTULOS */
+h1, h2 {
+  margin-bottom: 15px;
+  color: #f8fafc;
+}
+
+h2 {
+  margin-top: 25px;
+  font-size: 1.2rem;
+}
+
+/* INPUTS */
+input, select {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #1e293b;
+  background: #020617;
+  color: #e5e7eb;
+  outline: none;
+}
+
+input:focus, select:focus {
+  border-color: #6366f1;
+}
+
+/* BOTÕES */
+button {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: .2s;
+}
+
+/* BOTÕES GERAIS */
+#loadTasks, #createTask {
+  background: #6366f1;
+  color: white;
+  margin-bottom: 15px;
+}
+
+#loadTasks:hover,
+#createTask:hover {
+  background: #4f46e5;
+}
+
+/* LISTA */
+ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+li {
+  background: #020617;
+  border: 1px solid #1e293b;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* TEXTO */
+.task-title {
+  flex: 1;
+  font-weight: 500;
+}
+
+/* INPUT INLINE */
+.edit-title {
+  flex: 1;
+  padding: 6px 8px;
+  border-radius: 6px;
+  border: 1px solid #6366f1;
+  background: #020617;
+  color: #e5e7eb;
+}
+
+/* BOTÕES DA LISTA */
+.btn-edit {
+  background: #0ea5e9;
+  color: white;
+}
+
+.btn-edit:hover {
+  background: #0284c7;
+}
+
+.btn-save {
+  background: #22c55e;
+  color: white;
+}
+
+.btn-save:hover {
+  background: #16a34a;
+}
+
+.btn-finish {
+  background: #f59e0b;
+  color: #111827;
+}
+
+.btn-finish:hover {
+  background: #d97706;
+}
+
+.btn-delete {
+  background: #ef4444;
+  color: white;
+}
+
+.btn-delete:hover {
+  background: #dc2626;
+}
